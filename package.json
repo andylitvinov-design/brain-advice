@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "serve:local": "bash ./scripts/local-server.sh start",
+    "serve:stop": "bash ./scripts/local-server.sh stop",
+    "serve:status": "bash ./scripts/local-server.sh status",
+    "serve:restart": "bash ./scripts/local-server.sh restart"
   },
   "dependencies": {
+    "@sentry/nextjs": "^10.50.0",
     "next": "16.2.3",
     "react": "19.2.4",
     "react-dom": "19.2.4"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

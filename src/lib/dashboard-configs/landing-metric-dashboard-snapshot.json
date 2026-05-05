@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-04-14T22:32:17.839Z",
+  "metricModel": [
+    {
+      "id": "clarity",
+      "label": "Clarity",
+      "weight": 22,
+      "why": "Shows whether the promise is understandable in seconds and whether the page is ready for cold traffic."
+    },
+    {
+      "id": "cta",
+      "label": "CTA System",
+      "weight": 16,
+      "why": "Measures how clearly the page drives one primary next step without branching into chaos."
+    },
+    {
+      "id": "proof",
+      "label": "Proof",
+      "weight": 14,
+      "why": "Checks whether the page earns trust with results, specificity, process, credibility, or grounded evidence."
+    },
+    {
+      "id": "offer",
+      "label": "Offer Depth",
+      "weight": 14,
+      "why": "Captures whether the page explains formats, fit, pricing, objections, and what happens next."
+    },
+    {
+      "id": "hierarchy",
+      "label": "Scannability",
+      "weight": 12,
+      "why": "Tests whether the page is easy to scan, section by section, without copy overload."
+    },
+    {
+      "id": "focus",
+      "label": "Focus",
+      "weight": 10,
+      "why": "Flags friction from too many navigation exits, too many CTA variants, or weak decision guidance."
+    },
+    {
+      "id": "technical",
+      "label": "Technical",
+      "weight": 12,
+      "why": "Combines layout stability, markup quality, audit results, and accessibility/search hygiene."
+    }
+  ],
+  "summary": {
+    "weakestCategory": {
+      "id": "cta",
+      "label": "CTA System",
+      "average": 79
+    }
+  }
+}
